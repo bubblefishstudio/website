@@ -3,3 +3,16 @@ locale: en_US
 baseurl: ""
 url: "https://bubblefish.studio"
 sass.style: compressed
+future: true
+
+collections:
+  works:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "works"
+    values:
+      layout: "page"
